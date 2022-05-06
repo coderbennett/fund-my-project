@@ -1,0 +1,10 @@
+<section>
+    {{#each projects as |project| }}
+    <div>
+        <h2>{{project.name}}</h2>
+        <p>{{project.date_created}}</p>
+        <p>{{project.description}}</p>
+        <h3>{{project.needed_funding}}</h3>
+    </div>
+    {{/each}}
+</section>
